@@ -1,5 +1,5 @@
 # Ebaiboly (backend)
-
+Frontend: [https://github.com/Unviray/ebaiboly-frontend](https://github.com/Unviray/ebaiboly-frontend)
 ## Installing
 
 ### Using poetry (recommended)
