@@ -81,7 +81,7 @@ def get_book_list_with_testament(n: int):
     return first if n == 1 else last
 
 
-class ScreenModel(BaseModel):
+class PointerModel(BaseModel):
     book: str
     chapter: int
     verset: int
@@ -89,14 +89,14 @@ class ScreenModel(BaseModel):
 
 to_show_screen = None
 
-@app.post("/show-screen")
-def set_show_screen(model:ScreenModel):
+@app.post("/screen")
+def set_verset_list(model:PointerModel):
     global to_show_screen
     to_show_screen = model
     return to_show_screen
 
-@app.get("/show-screen")
-def get_show_screen():
+@app.get("/screen")
+def get_verset_list():
     global to_show_screen
     return to_show_screen
 
