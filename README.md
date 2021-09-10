@@ -1,18 +1,18 @@
-# Ebaiboly (backend)
-Frontend: [https://github.com/Unviray/ebaiboly-frontend](https://github.com/Unviray/ebaiboly-frontend)
+# BScreen (backend)
+Frontend: [https://github.com/Unviray/bscreen-frontend](https://github.com/Unviray/bscreen-frontend)
 ## Installing
 
 ### Using poetry (recommended)
 ```shell
-$ git clone https://github.com/Unviray/ebaiboly-backend
-$ cd ebaiboly-backend/
+$ git clone https://github.com/Unviray/bscreen-backend
+$ cd bscreen-backend/
 $ poetry install
 ```
 
 ### Using pip
 ```shell
-$ git clone https://github.com/Unviray/ebaiboly-backend
-$ cd ebaiboly-backend/
+$ git clone https://github.com/Unviray/bscreen-backend
+$ cd bscreen-backend/
 $ pip install -r requirements.txt
 ```
 
