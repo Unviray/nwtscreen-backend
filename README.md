@@ -1,18 +1,18 @@
-# BScreen (backend)
-Frontend: [https://github.com/Unviray/bscreen-frontend](https://github.com/Unviray/bscreen-frontend)
+# NwtScreen (backend)
+Frontend: [https://github.com/Unviray/nwtscreen-frontend](https://github.com/Unviray/nwtscreen-frontend)
 ## Installing
 
 ### Using poetry (recommended)
 ```shell
-$ git clone https://github.com/Unviray/bscreen-backend
-$ cd bscreen-backend/
+$ git clone https://github.com/Unviray/nwtscreen-backend
+$ cd nwtscreen-backend/
 $ poetry install
 ```
 
 ### Using pip
 ```shell
-$ git clone https://github.com/Unviray/bscreen-backend
-$ cd bscreen-backend/
+$ git clone https://github.com/Unviray/nwtscreen-backend
+$ cd nwtscreen-backend/
 $ pip install -r requirements.txt
 ```
 
